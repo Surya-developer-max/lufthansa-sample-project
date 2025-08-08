@@ -1,0 +1,408 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+.active{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.m-img{
+   background-image: url("images/img.jpg");
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+.m-cont{
+    color: white;
+    height: auto;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.188);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.m-top-cont{
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+.mc{
+    width: max-content;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.tp-c{
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+.top-c .tp-c p{
+    margin: 15px 0px 15px 0px;
+}
+.bpt-cont{
+    width: 550px;
+}
+.m-bot{
+    padding: 15px;
+}
+.bot-cont{
+    padding: 10px;
+}
+.bot-cont h4{
+   padding: 0px;
+   margin: 0px 0px 5px 0px;
+}
+.from,.to,.return {
+    padding: 10px;
+    margin-left: 10px;
+    max-width: 400px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.frm{
+    margin: 10px 0px 0px 10px;
+}
+.search-flight{
+    padding: 10px 20px;
+    background-color: goldenrod;
+    width: max-content;
+    border-radius: 10px;
+    margin-top: 5px;   
+}
+.main-card{
+    margin-top: 20px;
+}
+.main-card img{
+    width: 20px;
+}
+.card1,.card2,.card3,.card4{
+    position: relative;
+     border-bottom: 2px solid rgb(2, 2, 95);
+     max-width: 500px;
+}
+.main-card h3,.hey h4{
+    display: inline-block;  
+}
+.p-icon{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.img-content{
+    margin-top: 20px;
+}
+.img-cont1{
+    background-image: url("images/img2.jpg");
+}
+.img-cont2{
+     background-image: url("images/img\ 3.jpg");
+}
+.img-cont2,.img-cont1{
+    height: 300px;
+    width: auto;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.bg-dark{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg,black ,rgba(255, 255, 255, 00));
+    opacity: 0%;
+    transition: all 0.2s ease-in-out;
+}
+
+.bg-dark:hover{
+    opacity: 100%;
+}
+.imgc{
+    padding: 20px;
+}
+.img-cont1,.img-cont2{
+    color: white;
+    line-height: 5px;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.cards01{
+    margin: 10px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgb(250, 250, 251);
+}
+.cards01 h3,p{
+    padding: 10px;
+}
+.cardss{
+    margin-top: 20px;
+}
+.cardss01{
+    margin-top: 20px;
+}
+.hey{
+    margin-top: 50px;
+}
+.hey p{
+    margin-left: 25px;
+    padding: 10px;
+}
+.pt-top,.pt-bot{
+    display: flex;
+    align-items: center;
+}
+.pt-top{
+    justify-content: start;
+}
+.pt-bot
+{
+    justify-content: end;
+}
+.detail-card{
+    padding: 5px;
+    border-radius: 5px;
+    height: auto;
+    background-color: rgb(250, 250, 251);
+    border-radius: 10;
+    position: relative;
+    transition: all 0.1s ease-in-out;   
+    filter: blur(2px);
+}
+.detail-card:hover{
+    box-shadow: 0px 0px 5px rgb(152, 141, 141);
+    scale: 1.01;
+    filter: blur(0px);
+}
+.cols
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.c-btn{
+    width: max-content;
+    padding: 10px 20px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.c-btn:hover{
+    color: aliceblue;
+    background-color: darkblue;
+}
+.btn-cot{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.foot{
+    margin-top: 20px;
+}
+.dp{
+    display: inline-block;
+}
+input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.social-links{
+    margin-right: 30px;
+}
+.icon2{
+    width: 20px;
+    margin: 5px;
+}
+.fotter{
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.fot-top h2{
+    font-size:medium;
+    margin-bottom: 2px;
+}
+.fot-top{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.fot-body p{
+    padding: 2px;
+}
+.fottt p{
+    padding: 0px;
+    margin: 0px;
+}
+.fottt{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fottt div{
+    flex-basis: 8.33;
+}
+.p2-top-l{
+    margin: 10px;
+}
+.p2-top-l p{
+    width: max-content;
+    margin: 5px;
+}
+.p2-m-c{
+    background-color: gainsboro;
+    width: 100%;
+    color: rgba(2, 2, 77, 0.814);
+}
+.date-dtls{
+    display: flex;
+}
+.input-dtls{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.w-t-a{
+    width:200px;
+    border-bottom: 1px solid blueviolet;
+}
+.s-button{
+    width: max-content;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: white;
+    margin:10px;
+}
+.p2-mm{
+    padding: 20px;
+}
+.c3{
+     background-color: gainsboro;
+     margin-top: 30px;
+     padding: 20px;
+}
+.btn-3{
+    width: max-content;
+    padding:10px 20px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+}
+.p2-b-c{
+    margin-top: 30px;
+}
+.b-b-c{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.b-b-c p{
+    padding: 0px 10px 20px 0px;
+}
+.top-sm-cont{ 
+    background-color: gainsboro;
+    width: 70%;
+}
+
+.fl-tp{
+    display: flex;
+    border-bottom: 1px solid gray; 
+}
+.fl-tp h4{
+    margin: 10px;
+    padding: 10px;
+}
+.datee{
+    width: 100%;
+}
+.s-button-2{
+    text-decoration: none;
+    width: max-content;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: white;
+    margin-top: 20px;
+}
+.Mybookings{
+    margin-top: 15px;
+}
+.p3 p{
+    padding: 5px;
+}
+.p3-cont{
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+}
+.p3{
+    margin-top: 30px;
+}
+.mhead{
+    margin: 100px 0px 50px 0px;
+}
+.fotter-input{
+    background-color: transparent;
+    border-bottom: 1px solid gainsboro;
+    color: white;
+    margin: 60px 0px 60px 0px;
+}
+hr{
+    color: black;
+}
+.mhead-fot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mhead-fot{
+    border-top: 1px solid black;
+}
+.m3{
+    border-bottom: 1px solid black;
+}
+.img-content{
+    padding: 30px;
+}
+.conttt{
+    margin-top: 50px;
+}
+.conttt p{
+    padding: 0px;
+    margin-top: 30px;
+}
+.grid-items{
+    padding: 30px;
+}
+.cont-fft{
+    margin: 30px 0px 30px 0px;
+}
+.cont-f-f{
+    background-color: rgb(218, 213, 213);
+    padding: 30px;
+    margin: 10px 0px 20px 0px;
+}
+.cont-f-f h3,p{
+    padding: 20px;
+}
